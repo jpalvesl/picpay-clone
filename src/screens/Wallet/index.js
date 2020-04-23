@@ -4,7 +4,7 @@ import Constants from 'expo-constants';
 
 function Wallet() {
   return (
-    <Text style={{paddingTop: Constants.statusBarHeight}}>Wallet</Text>
+    <Text>Wallet</Text>
   )
 }
 
