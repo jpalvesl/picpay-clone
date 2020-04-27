@@ -45,7 +45,7 @@ function Tips() {
   return (
     <Container>
       {items.map((item) => (
-        <Option bgColor={item.bgColor}>
+        <Option key={item.key} bgColor={item.bgColor}>
           <Title>{item.title}</Title>
 
           <Img source={item.img} />
