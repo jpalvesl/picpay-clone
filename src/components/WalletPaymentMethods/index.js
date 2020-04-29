@@ -1,5 +1,5 @@
 import React from 'react';
-import { MaterialCommunityIcons, AntDesign } from '@expo/vector-icons';
+import { AntDesign } from '@expo/vector-icons';
 import { 
   PaymentMethods,
   PaymentMethodsTitle,
@@ -11,8 +11,7 @@ import {
   Img,
   AddButton,
   AddLabel,
-  UseTicketButton,
-  UseTicketLabel, } from './styles.js';
+} from './styles.js';
 
 import creditCard from '../../images/credit-card.png'
 

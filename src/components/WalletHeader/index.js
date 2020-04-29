@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Feather, MaterialCommunityIcons, FontAwesome } from '@expo/vector-icons';
+import { Switch } from 'react-native';
 
 import { 
   Header, 
@@ -12,14 +13,22 @@ import {
   Info,
   Actions,
   Action,
-  ActionLabel, } from './styles';
+  ActionLabel,  
+  UseBalance,
+  UseBalanceTitle, 
+} from './styles';
 
 
-function WalletHeader({ useBalance }) {
+function WalletHeader() {
   const [isVisible, setIsVisible] = useState(true);
+  const [useBalance, setUseBalance] = useState(true);
 
   function handleToggleVisibility() {
     setIsVisible((state) => !state)
+  }
+  
+  function handleToggleUseBalance() {
+    setUseBalance((state) => !state)
   }
 
   return (
@@ -57,7 +66,15 @@ function WalletHeader({ useBalance }) {
             <ActionLabel>Adicionar</ActionLabel>
           </Action>
         </Actions>
+
       </HeaderContainer>
+      <UseBalance>
+        <UseBalanceTitle>
+          Usar saldo ao pagar
+        </UseBalanceTitle>
+
+        <Switch value={useBalance} onValueChange={handleToggleUseBalance} />
+      </UseBalance>
     </Header>
   )
 }
