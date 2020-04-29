@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { MaterialCommunityIcons, AntDesign } from '@expo/vector-icons';
 import { Switch } from 'react-native';
 
 import { 
@@ -11,6 +10,7 @@ import {
 
 import WalletHeader from '../../components/WalletHeader'; 
 import WalletPaymentMethods from '../../components/WalletPaymentMethods'; 
+import TicketButton from '../../components/TicketButton'; 
 
 function Wallet() {
   const [useBalance, setUseBalance] = useState(true);
@@ -32,7 +32,8 @@ function Wallet() {
           <Switch value={useBalance} onValueChange={handleToggleUseBalance} />
         </UseBalance>
 
-        <WalletPaymentMethods />    
+        <WalletPaymentMethods />
+        <TicketButton />
       </Container>
     </Wrapper>
   )

@@ -23,18 +23,3 @@ export const UseBalanceTitle = styled.Text`
   font-size: 16px;
   font-weight: 500;
 `;
-
-
-export const UseTicketButton = styled.TouchableOpacity`
-  margin-top: 25px;
-  flex-direction: row;
-  justify-content: center;
-`;
-
-export const UseTicketLabel = styled.Text`
-  color: #0db060;
-  font-size: 16px;
-  font-weight: bold;
-  margin-left: 15px;
-  text-decoration-line: underline;
-`;
