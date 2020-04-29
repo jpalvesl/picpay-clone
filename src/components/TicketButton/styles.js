@@ -1,7 +1,7 @@
 import styled from 'styled-components/native';
 
 export const UseTicketButton = styled.TouchableOpacity`
-  margin-top: 25px;
+  margin: 25px 0;
   flex-direction: row;
   justify-content: center;
 `;
