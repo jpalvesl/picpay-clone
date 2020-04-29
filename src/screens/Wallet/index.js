@@ -55,7 +55,7 @@ function Wallet() {
           }
         >
           <HeaderContainer>
-            <Title>Saldo PickPay</Title>
+            <Title>Saldo PicPay</Title>
 
             <BalanceContainer>
               <Value>
