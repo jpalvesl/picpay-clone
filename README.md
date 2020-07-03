@@ -79,7 +79,7 @@ Clone do PicPay feito com React Native, tomando como base os [vídeos](https://w
 - [Expo Constants](https://docs.expo.io/versions/latest/sdk/constants/)
 - [Expo Linear Gradient](https://docs.expo.io/versions/latest/sdk/linear-gradient/)
 
-### A quick look at the top-level directories inside the `./src`.
+### Uma olhada por cima dos diretórios dentro de `./src`.
 
     ./src
      ├── components
