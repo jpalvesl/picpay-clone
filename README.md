@@ -44,11 +44,11 @@ Clone do PicPay feito com React Native, tomando como base os [vídeos](https://w
 
   - Usando Git
 ```shell
-  git clone https://github.com/jpalvesl/discord-clone.git
+  git clone https://github.com/jpalvesl/picpay-clone.git
 ```
   - Usando Github CLI
 ```shell
-  gh repo clone jpalvesl/discord-clone
+  gh repo clone jpalvesl/picpay-clone
 ```
   > :bulb: ou qualquer outra maneira que você preferir
 
